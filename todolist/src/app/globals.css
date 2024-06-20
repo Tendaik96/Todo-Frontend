@@ -1,7 +1,10 @@
-@tailwind base;
+ 
+ /* Add the Tailwind CSS directives that Tailwind will use to inject its generated styles to a Global Stylesheet in your application */
+ @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/*
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -31,3 +34,4 @@ body {
     text-wrap: balance;
   }
 }
+ */
