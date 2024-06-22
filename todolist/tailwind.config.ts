@@ -19,7 +19,8 @@ const config: Config = {
           seaBlue: "#068CDB",
           darkBlue: "#003554",
           correctGreen: "#06DB4E",
-          purple: "#6406DB"
+          purple: "#6406DB",
+          cyan: "#8EA5B2"
         },
       },
        borderRadius: {
