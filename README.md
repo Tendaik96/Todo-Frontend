@@ -27,7 +27,7 @@
     - Consider downloading the extensions `Console Ninja` and `Code Spell Checker` to make development easier.
 
 ## Running Instructions
-1. To start the app, enter these commands in the terminal: `npm i` and then `npm run dev`. This runs the frontend of the project.
+1. To start the app, enter these commands in the terminal: `npm i` and then `npm run dev` (Ensure that your terminal is directed to the correct directory: Todo-Frontend/todolist). This runs the frontend of the project.
 2. Go to the backend repository and enter this terminal: `npm run dev`. This will run the backend.
 3. Ensure that both frontend and backend do not run on the same port.
 4. You can now start using the app.
