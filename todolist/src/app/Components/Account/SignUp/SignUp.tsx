@@ -7,7 +7,7 @@ interface SignUpProps {
   setSignDisplay: any;
 }
 
-export default function SignUp({ handleGoogle, setSignDisplay, setSignData }: SignUpProps) {
+export default function SignUp({ handleGoogle, setSignDisplay }: SignUpProps) {
   const [signUpData, setSignUpData] = useState({
     fullname: "",
     email: "",

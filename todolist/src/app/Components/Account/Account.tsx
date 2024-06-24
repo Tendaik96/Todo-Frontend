@@ -128,7 +128,6 @@ export default function Account() {
       {signDisplay ? (
         <SignUp
           setSignInData={setSignInData}
-          handleSignIn={handleSignIn}
           handleGoogle={handleGoogle}
           setSignDisplay={setSignDisplay}
         />
