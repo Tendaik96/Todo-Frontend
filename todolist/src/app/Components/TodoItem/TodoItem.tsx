@@ -37,7 +37,10 @@ export default function TodoItem() {
         console.log(editValue);
       })
       .catch((err) => console.log(err));
+    
+    // edit form displays instead of the new todo input form
     setEditShowDisplay(true)
+    //setting the item id that will be edited so that the 
      setIndex(id);
   }
   
