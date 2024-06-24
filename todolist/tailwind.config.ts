@@ -25,6 +25,19 @@ const config: Config = {
       },
        borderRadius: {
       '3xl': '60px',
+      },
+       screens: {
+      'sm': '320px',
+         // => @media (min-width: 320px) { ... }
+         
+      'smUnique': '400px',
+      // => @media (min-width: 400px) { ... }
+
+      'md': '900px',
+      // => @media (min-width: 900px) { ... }
+
+      'lg': '1280px',
+      // => @media (min-width: 1280px) { ... }
     },
     },
   },

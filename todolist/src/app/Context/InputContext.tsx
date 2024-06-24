@@ -3,16 +3,17 @@
 
 import { useState, createContext, useContext } from "react";
 
-
 type todoFunctionType = (e: any) => void;
 type todoType = string;
 type selectType = string | undefined
 type selectFunctionType = (e: any) => void;
-type todoItemFunctionType = (todoItem: any) => void;
+
 type todoItemListType = {
   task: string;
   progress: string;
 }[]
+type todoItemFunctionType = (todoItem: todoItemListType) => void;
+
 type todoData = "incomplete" | "in progress" | "complete" | undefined | ""
 type statusFunctionType = (color: any) => void;
 type statusType =
